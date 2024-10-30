@@ -60,7 +60,3 @@ This project is already integrated with the ZCMC API template, which provides th
 ## Contributing
 
 Contributions are welcome! Please follow the standard practices for making contributions.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
