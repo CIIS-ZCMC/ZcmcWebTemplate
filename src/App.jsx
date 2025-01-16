@@ -30,6 +30,7 @@ const theme = extendTheme({
     body: "Poppins", // applies to `title-*` and `body-*`
   },
 });
+
 function App() {
   return (
     <CssVarsProvider theme={theme}>

@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { Box, Stack, Typography } from "@mui/joy";
 import BreadcrumbsComponent from "./BreadcrumbsComponent";
+import MenuNotification from "../Notification/MenuNotification";
 
 PageTitle.propTypes = {
   title: PropTypes.string,
@@ -11,13 +12,24 @@ PageTitle.propTypes = {
 
 function PageTitle({ title, description, subPage, subPath }) {
   return (
-    <Stack gap={2.5}>
-      <BreadcrumbsComponent
-        homePath={"/dashboard"}
-        currentPage={title}
-        subPage={subPage}
-        subPath={subPath}
-      />
+    <Stack gap={2}>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <BreadcrumbsComponent
+          homePath={"/dashboard"}
+          currentPage={title}
+          subPage={subPage}
+          subPath={subPath}
+        />
+        <Box>
+          <MenuNotification />
+        </Box>
+      </Box>
 
       <Box>
         <Typography fontSize={30} fontWeight={600}>

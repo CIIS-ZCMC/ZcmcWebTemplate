@@ -13,9 +13,9 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <ProtectedRoutes>
-        <Layout />
-      </ProtectedRoutes>
+      // <ProtectedRoutes>
+      <Layout />
+      // </ProtectedRoutes>
     ),
     children: sidebarRoutes,
   },

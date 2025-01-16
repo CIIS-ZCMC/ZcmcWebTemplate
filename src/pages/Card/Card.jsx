@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 
-function Dashboard() {
+function Card() {
   return (
     <Fragment>
       {/* CONTENT */}
-      DASHBOARD
+      CARD
     </Fragment>
   );
 }
 
-export default Dashboard;
+export default Card;
