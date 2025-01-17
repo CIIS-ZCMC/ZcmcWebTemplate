@@ -1,6 +1,6 @@
-import zcmc_logo from "../../assets/zcmc.png";
 import { Box, Divider, Stack, Typography, useTheme } from "@mui/joy";
-import { SYSTEM_NAME } from "../../services/Config";
+import zcmc_logo from "../../assets/zcmc.png";
+import { SYSTEM_NAME } from "../../Services/Config";
 import "./Sidebar.css";
 
 function BrandLogo() {
